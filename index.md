@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "E. Wasner"
+title: "Evan Wasner"
 ---
 
 # Welcome
 
-I’m a PhD candidate in Economics at XYZ University. My research focuses on [brief description].
+I’m a PhD candidate in Economics at the University of Massachusetts Amherst. My research focuses on [brief description].
 
-[Download my CV](cv.pdf)
+[Download my CV](EvanWasner_CV_2024-11-15.pdf)
 
 - [Research](research.html)
 - [Teaching](teaching.html)
-- [Contact](mailto:your@email.com)
+- [Contact](mailto:ewasner@umass.edu)

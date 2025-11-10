@@ -1,25 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-</head>
+---
+layout: compress
+---
 
-<body>
-  <header style="text-align:center; margin-bottom: 2em;">
-    <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a> |
-      <a href="{{ '/research.html' | relative_url }}">Research</a> |
-      <a href="{{ '/teaching.html' | relative_url }}">Teaching</a> |
-      <a href="{{ '/ewasner_CV_2025-11-10.pdf' | relative_url }}">CV</a> |
-      <a href="mailto:ewasner@umass.edu">Contact</a>
-    </nav>
-  </header>
+{% include base_path %}
 
-  <main class="container">
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
     {{ content }}
-  </main>
-</body>
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
 </html>

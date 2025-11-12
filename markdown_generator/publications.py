@@ -67,7 +67,7 @@ for row, item in publications.iterrows():
         pub_date = "nodate"
     else:
         pub_date = pd.to_datetime(item.pub_date).strftime("%Y-%m-%d")
-    
+
     md_filename = str(pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(pub_date) + "-" + item.url_slug
     year = pub_date[:4]
@@ -85,8 +85,9 @@ for row, item in publications.iterrows():
     
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
-    
-    md += "\ndate: " + str(pub_date)
+
+    if not pd.isna(item.pub_date):
+        md += "\ndate: " + pub_date
 
     if not pd.isna(item.venue):
         md += "\nvenue: '" + html_escape(item.venue) + "'"

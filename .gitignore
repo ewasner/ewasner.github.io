@@ -21,3 +21,6 @@ package-lock.json
 
 # Backup files
 *.bak
+
+# Python virtual environment
+.venv/

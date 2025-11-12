@@ -35,7 +35,6 @@ import pandas as pd
 # In[3]:
 
 publications = pd.read_csv("publications.csv", sep=",", header=0)
-publications
 
 
 # ## Escape special characters
@@ -110,7 +109,7 @@ for row, item in publications.iterrows():
     
     md_filename = os.path.basename(md_filename)
        
-    with open("../_publications/" + md_filename, 'w') as f:
+    with open("../_publications/" + md_filename, 'w', encoding='utf-8') as f:
         f.write(md)
 
 

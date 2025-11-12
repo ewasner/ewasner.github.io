@@ -63,24 +63,28 @@ def html_escape(text):
 
 import os
 for row, item in publications.iterrows():
+    # Convert date to YYYY-MM-DD
+    pub_date = pd.to_datetime(item.pub_date).strftime("%Y-%m-%d")
     
-    md_filename = str(item.pub_date) + "-" + item.url_slug + ".md"
-    html_filename = str(item.pub_date) + "-" + item.url_slug
-    year = item.pub_date[:4]
+    md_filename = str(pub_date) + "-" + item.url_slug + ".md"
+    html_filename = str(pub_date) + "-" + item.url_slug
+    year = pub_date[:4]
     
     ## YAML variables
     
     md = "---\ntitle: \""   + item.title + '"\n'
 
     # TODO Update to use the category assigned in the TSV file
-    md += """collection: manuscripts"""
+    md += "collection: publications"
+
+    md += "\ncategory: " + item.category
     
-    md += """\npermalink: /publication/""" + html_filename
+    md += "\npermalink: /publication/" + html_filename
     
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
-    md += "\ndate: " + str(item.pub_date) 
+    md += "\ndate: " + str(pub_date)
     
     md += "\nvenue: '" + html_escape(item.venue) + "'"
     

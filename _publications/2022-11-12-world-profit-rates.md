@@ -1,7 +1,7 @@
 ---
 title: "World Profit Rates, 1960-2019"
 collection: publications
-category: manuscripts
+category: journal_articles
 permalink: /publication/2022-11-12-world-profit-rates
 excerpt: 'We present estimates of industry-, national-, and world-level profit rates.'
 date: 2022-11-12

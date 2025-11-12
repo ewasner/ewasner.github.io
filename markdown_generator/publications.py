@@ -63,7 +63,10 @@ def html_escape(text):
 import os
 for row, item in publications.iterrows():
     # Convert date to YYYY-MM-DD
-    pub_date = pd.to_datetime(item.pub_date).strftime("%Y-%m-%d")
+    if pd.isna(item.pub_date):
+        pub_date = "nodate"
+    else:
+        pub_date = pd.to_datetime(item.pub_date).strftime("%Y-%m-%d")
     
     md_filename = str(pub_date) + "-" + item.url_slug + ".md"
     html_filename = str(pub_date) + "-" + item.url_slug
@@ -84,13 +87,15 @@ for row, item in publications.iterrows():
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
     md += "\ndate: " + str(pub_date)
-    
-    md += "\nvenue: '" + html_escape(item.venue) + "'"
+
+    if not pd.isna(item.venue):
+        md += "\nvenue: '" + html_escape(item.venue) + "'"
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
-    
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+
+    if not pd.isna(item.citation):
+        md += "\ncitation: '" + html_escape(item.citation) + "'"
     
     md += "\n---"
     

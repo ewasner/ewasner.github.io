@@ -1,7 +1,7 @@
 ---
 title: "Best of times, worst of times: record fossil-fuel profits, inflation and inequality"
 collection: publications
-category: manuscripts
+category: journal_articles
 permalink: /publication/2025-09-01-oil-profits
 excerpt: 'We document inequality in the ownership claims on record oil and gas profits in 2022 through a network model of share ownership.'
 date: 2025-09-01

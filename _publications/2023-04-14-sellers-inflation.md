@@ -1,7 +1,7 @@
 ---
 title: "Sellers’ inflation, profits and conflict: why can large firms hike prices in an emergency?"
 collection: publications
-category: manuscripts
+category: journal_articles
 permalink: /publication/2023-04-14-sellers-inflation
 excerpt: 'We analyze the pandemic-era inflation from an institutionalist perspective.'
 date: 2023-04-14

@@ -1,7 +1,7 @@
 ---
 title: "Digital operation and eye diagrams in spin-lasers"
 collection: publications
-category: manuscripts
+category: journal_articles
 permalink: /publication/2015-08-27-spin-lasers-digital-operation
 excerpt: 'We analyze how spin-lasers improve optical communications over conventional counterparts.'
 date: 2015-08-27

@@ -1,7 +1,7 @@
 ---
 title: "Implicit coordination in sellers’ inflation: How cost shocks facilitate price hikes"
 collection: publications
-category: manuscripts
+category: journal_articles
 permalink: /publication/2025-09-01-implicit-coordination
 excerpt: 'We use natural language processing and large language models on more than 130,000 earnings call transcripts to test the hypothesis that economy-wide cost shocks function as an implicit coordinating mechanism for firms to hike prices.'
 date: 2025-09-01

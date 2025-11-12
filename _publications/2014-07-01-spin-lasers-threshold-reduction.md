@@ -1,7 +1,7 @@
 ---
 title: "Spin-lasers: From threshold reduction to large-signal analysis"
 collection: publications
-category: manuscripts
+category: journal_articles
 permalink: /publication/2014-07-01-spin-lasers-threshold-reduction
 excerpt: 'We explore the theoretical effects of leveraging the properties of electron spin in lasers, demonstrating improvements over conventional counterparts.'
 date: 2014-07-01

@@ -86,7 +86,7 @@ publication_category:
   journal_articles:
     title: 'Peer-Reviewed Journal Articles'
   works_in_progress:
-    'Works in Progress'
+    title: 'Works in Progress'
   # conferences:
     # title: 'Conference Papers'
 

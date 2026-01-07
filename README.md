@@ -8,7 +8,7 @@ These are just some notes to myself to help me understand (and remind myself in 
 
 ## Publications
 
-There is a tsv file "markdown_generator/publivations.tsv". This is what needs to be edited. Then run "publications.py" from the "markdown_generator/ directory" (the ".ipynb" file is just a Jupyter notebook file written by the creators of the academicpages template to explain what to do, it's not necessary).
+There is a csv file "markdown_generator/publications.csv". This is what needs to be edited. Then run "publications.py" from the "markdown_generator/ directory" (the ".ipynb" file is just a Jupyter notebook file written by the creators of the academicpages template to explain what to do, it's not necessary).
 
 The "publications.py" script takes the content of the tsv file and converts it into separate markdown files (.md) in the "_publications/" directory. The publications are part of a "Jekyll collection" (declared in the "_config.yml" file) that is used to generate the publications page. So, whereas there are actual "about.md" and (unused) "cv.md" markdown files that are used to generate the About and (unused) CV pages, there is no "publications.md", because the page is just a list of the entries in the Jekyll collection.
 

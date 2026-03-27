@@ -7,12 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Economics at the University of Massachusetts Amherst. My research and teaching embody a pluralist and interdisciplinary approach to understanding inflation, economic coordination, and living standards, with a focus on the roles of political economy and institutions.
+I am a PhD candidate in economics at the University of Massachusetts Amherst. My research encompasses political economy, economic history, the history of economic thought, and macroeconomics. 
 
-My current work examines how firms and households navigate inflationary environments—how supply shocks shape pricing behaviors, and how inflation heterogeneity affects real purchasing power across households. I also study historical cases of large-scale economic coordination, such as industrial planning in the United States during the Second World War, to illuminate how institutions and crises shape economic outcomes. Combining quantitative and qualitative methods, I aim to generate policy-relevant insights that connect empirical findings with the institutional and structural contexts in which economic decisions are made.
+My forthcoming dissertation is titled *The Political Economy of Crisis: Essays on Inflation, Real Wages, and Economic Planning*, which provides an institutional analysis of the pandemic-era inflation, challenges the notion that real wages rose during the pandemic, and explores the experience of central planning of the "commanding heights" of the U.S. economy by the Roosevelt Administration during World War II. I've also published research, for instance, on the ultimate beneficiaries of record oil and gas profits as inflation rippled across the globe in 2022 (hint: it wasn't the majority of the human population), and on rates of profit across industries and countries. 
 
-I am passionate about teaching economics as a historically grounded and empirically engaged discipline. In the classroom, I encourage students to think critically about economic arguments by comparing alternative theoretical perspectives and applying them to contemporary policy and social issues. I emphasize active, student-centered learning to help students develop the analytical and communication skills essential for understanding and engaging with today’s economic challenges.
-
-I aim to advance the study and practice of economics through research, teaching, and engagement with pressing social and policy questions.
-
+My research has been cited across major media outlets, and I am committed to putting forward analysis through the lens of political economy that investigates the world as it actually exists.
 

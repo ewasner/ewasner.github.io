@@ -2,9 +2,9 @@
 title: "Why Real Wage Gains Were Not So Real: Evidence from Household-Level Food-at-Home inflation"
 collection: publications
 category: works_in_progress
-permalink: /publication/2025-05-18-real-food-wages
+permalink: /publication/2026-05-18-real-food-wages
 excerpt: 'I use NielsenIQ microdata to demonstrate that widely cited measures of real wage gains during the pandemic-era inflation likely misrepresented changes in material well-being for many U.S. households.'
-date: 2025-05-18
+date: 2026-05-18
 paperurl: 'https://papers.ssrn.com/abstract=6770478'
 citation: '<b>Wasner, Evan</b>. 2026. “Why Real Wage Gains Were Not So Real: Evidence from Household-Level Food-at-Home Inflation.” Kilts Center at Chicago Booth Marketing Data Center Paper, Available at SSRN: https://papers.ssrn.com/abstract=6770478.'
 ---

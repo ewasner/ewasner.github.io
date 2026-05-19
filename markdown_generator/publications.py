@@ -64,7 +64,7 @@ import os
 for row, item in publications.iterrows():
     # Convert date to YYYY-MM-DD
     if pd.isna(item.pub_date):
-        pub_date = "nodate"
+        pub_date = "0000nodate"
     else:
         pub_date = pd.to_datetime(item.pub_date).strftime("%Y-%m-%d")
 

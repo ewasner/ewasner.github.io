@@ -2,7 +2,7 @@
 title: "Managing Critical Input Scarcity With State Planning: The Case of the U.S. Aluminum Industry During WWII"
 collection: publications
 category: works_in_progress
-permalink: /publication/nodate-ww2-planning
+permalink: /publication/0000nodate-ww2-planning
 excerpt: 'I investigate why governments turn to unorthodox state planning tools to manage the allocation of critical inputs during times of crisis.'
 ---
 
